@@ -1,0 +1,40 @@
+/* Base styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 800px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #0077b6;
+}
+
+ul.color-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.color-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.swatch {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 1rem;
+  border: 1px solid #ccc;
+}
+
+/* Color swatches */
+.primary { background-color: #0077b6; }
+.secondary { background-color: #00b4d8; }
+.accent1 { background-color: #90e0ef; }
+.accent2 { background-color: #cffafe; }
