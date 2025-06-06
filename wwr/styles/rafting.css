@@ -122,3 +122,23 @@ footer {
     gap: 1rem;
     justify-content: flex-end;
 }
+
+iframe {
+  border: 2px solid #007BFF;
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+}
+
+button[type="submit"] {
+  background-color: #0284c7;
+  color: white;
+  padding: 0.75em 1.5em;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0369a1;
+}
