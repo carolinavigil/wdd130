@@ -47,30 +47,30 @@
             </section>
             <section class="contact-form">
               <h2>Send Us a Message</h2>
-              <form action="submit_form.php" id="form1">
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required>
-
+              <form action="submit_form.php" method="post">
+                <label for="user-name">Full Name:</label>
+                <input type="text" id="user-name" name="name" required>
+                <label for="user-email">Email Address:</label>
+                <input type="email" id="user-email" name="email" required>
                 <p>Purpose of the message:</p>
-                <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
-                <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-                <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-
-                <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
-
-                <button type="submit">Send Message</button>
-              </form>
+                <label for="general-inquiry">
+                    <input type="radio" id="general-inquiry" name="purpose" value="general" required>
+                    General Inquiry
+                </label><br>
+                <label for="reservation-question">
+                    <input type="radio" id="reservation-question" name="purpose" value="reservation">
+                    Website Suggestion
+                </label><br>
+                <label for="user-message">Message:</label>
+                <textarea id="user-message" name="message" rows="5" required></textarea>
+                <label for="subscribe">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    Please subscribe me to the monthly newsletter
+                </label>
+                <button type="submit" id="submit-button">Send Message</button>
+              </form> 
             </section>
-
         </main>
-        
-        
         <footer>
             <p>&copy; 2025 Rapid Rush Rafting | Carol Vigil</p>
             <nav class="socialmedia">
